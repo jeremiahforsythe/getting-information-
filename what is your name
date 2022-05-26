@@ -1,0 +1,26 @@
+int main()
+
+{
+
+	/*
+		1.get the name of the user
+		2. print "hello " + User Name 
+	
+	
+	*/
+
+	string name = "";
+	
+	cout <<"what is your name?" << endl;
+	getline(cin, name);
+	cout << "hello " << name << endl;
+
+	int age = 0;
+	cout << "how old are you";
+	cin >> age;
+	cout << "Oh so you are"    << age<<    "years old ";
+	return 0;
+
+
+
+}
